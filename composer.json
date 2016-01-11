@@ -1,5 +1,5 @@
 {
-    "name"       : "propel/propel-service-provider",
+    "name"       : "propel/propel-service-provider-2",
     "type"       : "library",
     "description": "Propel 2  integration for Silex 2.",
     "keywords"   : ["silex", "propel"],

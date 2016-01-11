@@ -1,26 +1,17 @@
-PropelServiceProvider
+PropelServiceProvider2
 =====================
 
-[![Build Status](https://secure.travis-ci.org/rafaelnery/PropelServiceProvider.png?branch=2.x)](http://travis-ci.org/propelorm/PropelServiceProvider)
+[![Build Status](https://secure.travis-ci.org/propelorm/PropelServiceProvider.png?branch=2.x)](http://travis-ci.org/propelorm/PropelServiceProvider)
 
-The *PropelServiceProvider* provides Silex integration with [Propel](https://github.com/propelorm/Propel2)
-
-Branching model
----------------
-
-* The `1.x` branch contains Propel *1.6* integration.
-* The `2.x` branch contains *Propel2* integration.
-
-**Note:** the following instructions are relative to PropelServiceProvider used with Propel2 (branch 2.x).
-For PropelServiceProvider used with Propel 1, please switch to branch 1.x.
+The *PropelServiceProvider2* provides Silex 2 integration with [Propel](https://github.com/propelorm/Propel2)
 
 Set up
 ------
 
-If you want to use *PropelServiceProvider*, you will need:
+If you want to use *PropelServiceProvider2*, you will need:
 
-  * Silex 1.x
-  * PHP 5.4 or greater
+  * Silex 2.x
+  * PHP 5.5 or greater
   * Composer
 
 To setup the project in your Silex application, you have to rely on composer ;
@@ -28,7 +19,7 @@ just add the following to your `composer.json` file:
 
 ``` json
 "require": {
-    "propel/propel-service-provider": "2.x"
+    "propel/propel-service-provider-2": "dev-master"
 }
 ```
 

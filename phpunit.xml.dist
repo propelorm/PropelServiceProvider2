@@ -12,7 +12,7 @@
          bootstrap="tests/bootstrap.php"
 >
     <testsuites>
-        <testsuite name="PropelServiceProvider Test Suite">
+        <testsuite name="PropelServiceProvider2 Test Suite">
             <directory>./tests/Propel/</directory>
         </testsuite>
     </testsuites>
