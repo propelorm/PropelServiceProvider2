@@ -6,6 +6,13 @@ php:
 before_script:
     - wget http://getcomposer.org/composer.phar
     - php composer.phar install
+install:
+  - rm -f ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/xdebug.ini
+  - composer install
+cache:
+  directories:
+    - vendor
+    - $HOME/.composer/cache
 notifications:
     email:
         - rafael@nery.info
